@@ -7,9 +7,14 @@ namespace Website
 {
     public static class WebApiConfig
     {
-        public static void Register ( HttpConfiguration config )
+        public static void Register(HttpConfiguration config)
         {
-            config.Routes.MapHttpRoute (
+            // Web API configuration and services
+
+            // Web API routes
+            config.MapHttpAttributeRoutes();
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
