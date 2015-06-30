@@ -1,0 +1,47 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Time"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".5"
+            android:layout_margin="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Score"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/algo_txt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_weight="0.11"
+        android:clickable="false"
+        android:fontFamily="@string/app_name"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
