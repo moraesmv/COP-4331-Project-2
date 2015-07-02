@@ -2,13 +2,15 @@
 <html lang="en-US">
 <head>
 	<link rel="stylesheet" type="css" href="stylesheet.css">
-<title>Main</title>
+	<title>Today's Top Scores</title>
 </head>
+
 <body>
 	<div id="nav">
 		<div id="nav_wrapper">	
 			<ul>
-				<li><a href="download.htm">Download</a></li><li>
+				<li><a href="intro.htm">Main Page</a></li><li>
+				<a href="download.htm">Download</a></li><li>
 				<a href="TodayScore.htm">Today's Leaderboards<img src="arrow.png" /></a>
 					<ul>
 						<li><a href="TodayScore.htm">Score</a></li><li>
@@ -27,14 +29,17 @@
 		</div>
 	</div>
 
-	<h1><span class="steal">Steal</span>th</h1>
-
-	<br><p><span>Steal</span>th is a 2D stealth platformer. Insert more info here. K thx.</p>
+	<h1 class="leaderhead">Score Leaderboard for 
+		<script type="text/javascript">
+			var currentTime = new Date();
+			var month = currentTime.getMonth() + 1;
+			var day = currentTime.getDate();
+			document.write(month + "/" + day);
+		</script>
+	</h1>
 
 	<div id="footer">
 		<p>Copyright <img src="copyright.png" id="copy" />: Guf, Marcus, Robert, Xavier</p>
 	</div>
-
-
 </body>
 </html>
