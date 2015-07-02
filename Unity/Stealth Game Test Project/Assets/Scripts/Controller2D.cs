@@ -8,26 +8,18 @@ public class Controller2D : MonoBehaviour
 
     public bool showDebug = true;
 
-    // Three collision masks for types of objects we'll be interacting with
     public LayerMask collisionMask;
     public LayerMask treasureMask;
     public LayerMask doorMask;
 
-    // Amount of rays used in each direction for raycast collision detection
     public int horizontalRayCount = 4;
     public int verticalRayCount = 4;
 
-    // Spacing between the raycast rays
     float horizontalRaySpacing;
     float verticalRaySpacing;
 
-    // Rays will be fired from a small distance inside of the character to provide for better collision detection
     const float skinwidth = .015f;
-
-    // Collider for the player object
     BoxCollider2D collider;
-
-    // Originating points for raycasts
     RaycastOrigins raycastOrigins;
 
     Player player;
@@ -46,14 +38,9 @@ public class Controller2D : MonoBehaviour
         HorizontalCollisions ( ref velocity );
         VerticalCollisions ( ref velocity );
 
-        // Moves the character using the given velocity
         transform.Translate ( velocity );
     }
 
-
-    /* input: BoxCollider of whatever treasure object the character hits
-     * purpose: adds the treasure's value to the player's score and removes the treasure from the scene
-     */
     void Pickup ( Collider2D collider )
     {
         Treasure treasure = collider.GetComponent<Treasure> ();
@@ -63,7 +50,6 @@ public class Controller2D : MonoBehaviour
         GameObject.Destroy ( gameObj );
     }
 
-    // Does the collision detection on the horizontal plane
     void HorizontalCollisions(ref Vector3 velocity)
     {
         float directionX = Mathf.Sign ( velocity.x );
@@ -74,7 +60,6 @@ public class Controller2D : MonoBehaviour
             Vector2 rayOrigin = ( directionX == -1 ) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
             rayOrigin += Vector2.up * ( horizontalRaySpacing * i );
             
-            // These return true if the player collides with any of the given layers
             RaycastHit2D hit = Physics2D.Raycast ( rayOrigin, Vector2.right * directionX, rayLength, collisionMask );
             RaycastHit2D hitTreasure = Physics2D.Raycast ( rayOrigin, Vector2.right * directionX, rayLength, treasureMask );
             RaycastHit2D hitDoor = Physics2D.Raycast ( rayOrigin, Vector2.right * directionX, rayLength, doorMask );
@@ -84,7 +69,6 @@ public class Controller2D : MonoBehaviour
                 Debug.DrawRay ( rayOrigin, Vector2.right * directionX * rayLength, Color.red );
             }
 
-            // If the player collides with anything labeled with the obstacle layer
             if(hit)
             {
                 velocity.x = ( hit.distance - skinwidth ) * directionX;
@@ -104,7 +88,6 @@ public class Controller2D : MonoBehaviour
 
     }
 
-    // Does the collision detection on the vertical plane, for landing and walking and such
     void VerticalCollisions ( ref Vector3 velocity )
     {
         float directionY = Mathf.Sign ( velocity.y );
@@ -128,8 +111,6 @@ public class Controller2D : MonoBehaviour
             }
         }
     }
-
-    // Updates the raycast origins...
     void UpdateRaycastOrigins()
     {
         Bounds bounds = collider.bounds;

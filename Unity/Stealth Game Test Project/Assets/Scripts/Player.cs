@@ -4,6 +4,7 @@ using System.Collections;
 [RequireComponent (typeof(Controller2D))]
 public class Player : MonoBehaviour 
 {
+
     public float gravity = -9.8f;
     public float moveSpeed = 5;
     public int score = 0;
@@ -18,8 +19,9 @@ public class Player : MonoBehaviour
         controller = GetComponent<Controller2D> ();
 	}
 
-    void Update()
+    void FixedUpdate()
     {
+	
 
         Vector2 input = new Vector2 ( Input.GetAxisRaw ( "Horizontal" ), Input.GetAxisRaw ( "Vertical" ) );
 
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
         velocity.y += gravity + Time.deltaTime;
         controller.Move ( velocity * Time.deltaTime );
         score = controller.score;
+
     }
 
 }
