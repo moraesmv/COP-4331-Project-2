@@ -1,6 +1,6 @@
 {
-  "name": "restAPI",
-  "version": "0.0.0",
+  "name": "WebAPI",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
