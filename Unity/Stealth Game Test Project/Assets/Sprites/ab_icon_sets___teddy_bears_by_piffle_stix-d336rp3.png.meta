@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: 7236b4acc8b99414fad52634862e0004
+timeCreated: 1435891112
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_0
+    21300002: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_1
+    21300004: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_2
+    21300006: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_3
+    21300008: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_4
+    21300010: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_5
+    21300012: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_6
+    21300014: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_7
+    21300016: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_8
+    21300018: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_9
+    21300020: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_10
+    21300022: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_11
+    21300024: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_12
+    21300026: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_13
+    21300028: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_14
+    21300030: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_15
+    21300032: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_16
+    21300034: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_17
+    21300036: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_18
+    21300038: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_19
+    21300040: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_20
+    21300042: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_21
+    21300044: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_22
+    21300046: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_23
+    21300048: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_24
+    21300050: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_25
+    21300052: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_26
+    21300054: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_27
+    21300056: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_28
+    21300058: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_29
+    21300060: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_30
+    21300062: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_31
+    21300064: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_32
+    21300066: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_33
+    21300068: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_34
+    21300070: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_35
+    21300072: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_36
+    21300074: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_37
+    21300076: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_38
+    21300078: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_39
+    21300080: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_40
+    21300082: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_41
+    21300084: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_42
+    21300086: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_43
+    21300088: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_44
+    21300090: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_45
+    21300092: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_46
+    21300094: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_47
+    21300096: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_48
+    21300098: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_49
+    21300100: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_50
+    21300102: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_51
+    21300104: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_52
+    21300106: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_53
+    21300108: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_54
+    21300110: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_55
+    21300112: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_56
+    21300114: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_57
+    21300116: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_58
+    21300118: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_59
+    21300120: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_60
+    21300122: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_61
+    21300124: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_62
+    21300126: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_63
+    21300128: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_64
+    21300130: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_65
+    21300132: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_66
+    21300134: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_67
+    21300136: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_68
+    21300138: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_69
+    21300140: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_70
+    21300142: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_71
+    21300144: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_72
+    21300146: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_73
+    21300148: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_74
+    21300150: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_75
+    21300152: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_76
+    21300154: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_77
+    21300156: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_78
+    21300158: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_79
+    21300160: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_80
+    21300162: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_81
+    21300164: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_82
+    21300166: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_83
+    21300168: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_84
+    21300170: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_85
+    21300172: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_86
+    21300174: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_87
+    21300176: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_88
+    21300178: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_89
+    21300180: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_90
+    21300182: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_91
+    21300184: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_92
+    21300186: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_93
+    21300188: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_94
+    21300190: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_95
+    21300192: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_96
+    21300194: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_97
+    21300196: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_98
+    21300198: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_99
+    21300200: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_100
+    21300202: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_101
+    21300204: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_102
+    21300206: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_103
+    21300208: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_104
+    21300210: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_105
+    21300212: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_106
+    21300214: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_107
+    21300216: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_108
+    21300218: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_109
+    21300220: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_110
+    21300222: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_111
+    21300224: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_112
+    21300226: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_113
+    21300228: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_114
+    21300230: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_115
+    21300232: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_116
+    21300234: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_117
+    21300236: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_118
+    21300238: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_119
+    21300240: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_120
+    21300242: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_121
+    21300244: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_122
+    21300246: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_123
+    21300248: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_124
+    21300250: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_125
+    21300252: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_126
+    21300254: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_127
+    21300256: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_128
+    21300258: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_129
+    21300260: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_130
+    21300262: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_131
+    21300264: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_132
+    21300266: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_133
+    21300268: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_134
+    21300270: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_135
+    21300272: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_136
+    21300274: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_137
+    21300276: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_138
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 694
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 694
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 630
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_17
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_20
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_21
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_23
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_24
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_25
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_26
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 566
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_31
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_34
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_35
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_36
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_37
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_38
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_39
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_40
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_41
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_42
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 502
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_44
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_46
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_48
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_49
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_50
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_51
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_52
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_53
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_54
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_55
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_56
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_58
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_62
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_63
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_64
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_65
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_66
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_67
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_68
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_69
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_70
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_71
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_72
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_73
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_74
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 374
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_75
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_77
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_79
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_80
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_81
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_82
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_83
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 310
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_85
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_87
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_88
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_89
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_90
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_91
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_92
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_93
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_94
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_95
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_96
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_97
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 246
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_98
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_99
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_100
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_101
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_102
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_103
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_104
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_105
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_106
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_107
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_108
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 182
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_109
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_110
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_111
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_112
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_113
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_114
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_115
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_116
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_117
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_118
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_119
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_120
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_121
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_122
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 118
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_123
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_124
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_125
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_126
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_127
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_128
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_129
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_130
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_131
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_132
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_133
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_134
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_135
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_136
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_137
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ab_icon_sets___teddy_bears_by_piffle_stix-d336rp3_138
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 54
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
