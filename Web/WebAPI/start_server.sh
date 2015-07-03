@@ -7,9 +7,9 @@ echo "Server Starting: "
 date >> log.log
 
 if [ $2 == 'log' ]; then
-    npm start >> log.log
+    node app.js >> log.log
 else
-    npm start
+    node app.js
 fi
 
 date >> log.log
