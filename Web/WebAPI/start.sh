@@ -1,1 +1,1 @@
-./bin/start_server.sh clearlog log
+./start_server.sh clearlog log
