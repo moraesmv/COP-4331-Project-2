@@ -13,9 +13,12 @@ public class LevelManager : MonoBehaviour {
 
 	public float respawnDelay;
 
+	public TriesManager triesManager;
+
 	// Use this for initialization
 	void Start () {
 		player = FindObjectOfType<PlayerController2>();
+		triesManager = FindObjectOfType<TriesManager>();
 	}
 	
 	// Update is called once per frame
@@ -35,6 +38,7 @@ public class LevelManager : MonoBehaviour {
 		player.GetComponent<Renderer>().enabled = false;
 		player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		ScoreManager.AddPoints(-pointPenaltyDeath);
+		//todo gameover
 		Debug.Log ("Player Respawn");
 		yield return new WaitForSeconds (respawnDelay);
 		player.enabled = true;
