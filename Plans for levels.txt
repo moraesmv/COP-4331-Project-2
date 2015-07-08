@@ -1,0 +1,15 @@
+Art Museum Level - Guard at receptionist desk on first floor(occasionally looks up) with lost&found in front of that can be looted.
+
+Area 51 Level - Instead of starting at ground level, start at top and work way down.
+
+Dealership Level - Car is blocked by glass. Go up and around. Find switch to open garage door or exit before then and gain less points.
+
+First Level - Only time limit until dude gets home. If time runs out, reset level.
+
+
+Items:
+Deck of Cards
+Gold Connect 4 with Diamond Pieces
+Art(Flood Fill)
+Car
+UFO Plans
