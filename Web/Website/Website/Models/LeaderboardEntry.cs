@@ -32,7 +32,7 @@ namespace Website.Models
                 Score = this.Score,
                 Initials = this.Initials,
                 LevelCompleteTime = this.LevelCompleteTime,
-                Date = this.Date
+                Date = this.Date.ToShortDateString()
             };
 
             return entry;
@@ -45,7 +45,7 @@ namespace Website.Models
                 Score = this.Score,
                 Initials = this.Initials,
                 LevelCompleteTime = this.LevelCompleteTime,
-                Date = this.Date
+                Date = this.Date.ToShortDateString()
             };
 
             return entry;
@@ -58,7 +58,7 @@ namespace Website.Models
                 Score = this.Score,
                 Initials = this.Initials,
                 LevelCompleteTime = this.LevelCompleteTime,
-                Date = this.Date
+                Date = this.Date.ToShortDateString()
             };
 
             return entry;
@@ -71,7 +71,7 @@ namespace Website.Models
                 Score = this.Score,
                 Initials = this.Initials,
                 LevelCompleteTime = this.LevelCompleteTime,
-                Date = this.Date
+                Date = this.Date.ToShortDateString()
             };
 
             return entry;
@@ -95,7 +95,7 @@ namespace Website.Models
         public int LevelCompleteTime { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
     }
 
     public class TopScoresAllTimeEntry
@@ -115,7 +115,7 @@ namespace Website.Models
         public int LevelCompleteTime { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
     }
 
     public class TopTimesTodayEntry
@@ -135,7 +135,7 @@ namespace Website.Models
         public int LevelCompleteTime { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
     }
 
     public class TopTimesAllTimeEntry
@@ -155,6 +155,6 @@ namespace Website.Models
         public int LevelCompleteTime { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
     }
 }
