@@ -1,0 +1,20 @@
+{
+    Name : "Level 1",
+    Description : String,
+    Leaderboards : [
+        {
+            Name : "Leaderboard 1",
+            Entries : [
+                entry1,
+                entry2
+            ]
+        },
+        {
+            Name : "Leaderboard 2",
+            Entries : [
+                entry1,
+                entry2
+            ]
+        }
+    ]
+}

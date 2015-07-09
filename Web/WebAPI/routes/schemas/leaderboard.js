@@ -7,7 +7,10 @@ var Entry = mongoose.model("Entry");
 var Leaderboard = new Schema({
     Name    :   {type: String, unique: true},
     Description :   String,
-    Entries :   [Entry]
+    Entries :   [{
+        type : ObjectId,
+        ref: 'Entry'
+    }]
 });
 
 mongoose.model('Leaderboard', Leaderboard);

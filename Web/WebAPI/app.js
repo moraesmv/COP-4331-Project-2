@@ -25,13 +25,23 @@ app.use(bodyParser.json());
 // app.use(express.static(__dirname + '/public'));
 // Routing for the different pages
 app.get('/', site.index);
-app.get('/api/', api.level);
+
+app.get('/api/:level/:board', api.getBoard);
+app.get('/api/:level', api.getLevel);
+app.get('/api/debug', api.addEntry);
+app.get('/api/', api.allLevels);
+
 app.post('/api/', api.addEntry);
+
 
 
 // This will be used once the DB is setup and routing is configured
 // app.get('/api/:timeframe/:type', leaderboard.api);
 app.get('/:page', site.page);
+
+process.on('uncaughtException', function (err) {
+    console.log(err);
+}); 
 
 http.createServer(app).listen(PORT, function () {
     console.log("Listening on port: " + PORT);

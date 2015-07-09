@@ -10,3 +10,4 @@ var Level = new Schema({
 });
 
 mongoose.model('Level', Level);
+exports.Model = Level;
