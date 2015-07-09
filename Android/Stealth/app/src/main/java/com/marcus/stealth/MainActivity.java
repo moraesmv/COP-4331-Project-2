@@ -1,126 +1,87 @@
 
 package com.marcus.stealth;
 
-import android.app.ActionBar;
-import android.app.FragmentTransaction;
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+import android.support.v4.app.FragmentTransaction;
 
-public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
 
-    AppSectionsPagerAdapter mAppSectionsPagerAdapter;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-    ViewPager mViewPager;
+import java.text.ParseException;
+import java.util.ArrayList;
 
+public class MainActivity extends FragmentActivity {
+
+    // URL to get contacts JSON
+    private static String uri = "http://168.235.74.170:8080/api/";
+
+    // JSON Node names
+    private static final String TAG_SCORES = "scores";
+
+    ArrayList<Score> scoreList;
+    public ScoreChoice scoreChoice;
+
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        scoreList = new ArrayList<>();
+        readJsonFromUrl(uri);
 
-        mAppSectionsPagerAdapter = new AppSectionsPagerAdapter(getSupportFragmentManager());
+        FragmentManager fm = getSupportFragmentManager();
+        scoreChoice = (ScoreChoice) fm.findFragmentByTag(TAG_SCORES);
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        scoreChoice = ScoreChoice.newInstance(scoreList);
+        ft.add(R.id.score_list, scoreChoice, TAG_SCORES);
+        ft.commit();
 
-        final ActionBar actionBar = getActionBar();
+    }
 
-        actionBar.setHomeButtonEnabled(false);
+    public void readJsonFromUrl(String url)
+    {
+        JsonArrayRequest jreq = new JsonArrayRequest(url,
+                new Response.Listener<JSONArray>() {
 
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+                    @Override
+                    public void onResponse(JSONArray response) {
 
-        mViewPager = (ViewPager) findViewById(R.id.pager);
-        mViewPager.setAdapter(mAppSectionsPagerAdapter);
-        mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+                        for (int i = 0; i < response.length(); i++) {
+                            try {
+
+                                JSONObject jo = response.getJSONObject(i);
+                                Score score = new Score(jo);
+
+                                scoreList.add(score);
+                            } catch (JSONException e) {
+                                    e.printStackTrace();
+                            } catch (ParseException e) {
+                                e.printStackTrace();
+                            }
+                        }
+
+
+                    }
+                }, new Response.ErrorListener() {
             @Override
-            public void onPageSelected(int position) {
-               actionBar.setSelectedNavigationItem(position);
+            public void onErrorResponse(VolleyError error) {
             }
         });
 
+        RequestQueue rq = Volley.newRequestQueue(this);
 
-            actionBar.addTab(
-                    actionBar.newTab()
-                            .setText("Today Top 10")
-                            .setTabListener(this));
-
-
-        actionBar.addTab(
-                actionBar.newTab()
-                        .setText("All Time Top 10")
-                        .setTabListener(this));
-
+        rq.add(jreq);
     }
 
-    @Override
-    public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-    }
+   }
 
-    @Override
-    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-       mViewPager.setCurrentItem(tab.getPosition());
-    }
-
-    @Override
-    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-    }
-
-
-    public static class AppSectionsPagerAdapter extends FragmentPagerAdapter {
-
-        public AppSectionsPagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int i) {
-            switch (i) {
-                case 0:
-
-                    return new top10();
-
-                default:
-
-                    return new all10();
-
-            }
-        }
-
-        @Override
-        public int getCount() {
-            return 2;
-        }
-
-
-    }
-
-   public static class top10 extends Fragment {
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_section_launchpad, container, false);
-
-
-            return rootView;
-        }
-    }
-
-
-    public static class all10 extends Fragment {
-
-        public static final String ARG_SECTION_NUMBER = "section_number";
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_section_dummy, container, false);
-
-            return rootView;
-        }
-    }
-}
