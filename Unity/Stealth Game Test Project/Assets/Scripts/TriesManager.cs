@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class TriesManager : MonoBehaviour {
 	
 	public static int tries;
-	//public int maxTries = 3;
+	public int maxTries = 3;
 	
 	Text text;
 
@@ -34,13 +34,14 @@ public class TriesManager : MonoBehaviour {
 	{
 		if (tries < 1 && !gameOver)
 		{
-			
+			levelManager.ContinueGame();
 			gameOver = true;
 		}
 		if (gameOver)
 		{
 			gameOverScreen.SetActive(true);
 			player.gameObject.SetActive(false);
+			PlayerPrefs.SetInt("PlayerTries", maxTries);
 			waitAfterGameOver -= Time.deltaTime;
 		}
 
@@ -65,7 +66,7 @@ public class TriesManager : MonoBehaviour {
 
 	public void Reset()
 	{
-		tries = PlayerPrefs.GetInt("PlayerTries");
+		PlayerPrefs.SetInt("PlayerTries", maxTries);
 	}
 	
 

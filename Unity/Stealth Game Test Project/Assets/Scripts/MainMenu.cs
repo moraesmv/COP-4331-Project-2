@@ -5,11 +5,10 @@ public class MainMenu : MonoBehaviour {
 
 	public string startLevel;
 
-	public string continuation;
-
 	public int playerTries;
 
 	public int playerScore;
+	private LevelManager levelManager;
 
 	public void NewGwme()
 	{
@@ -20,7 +19,8 @@ public class MainMenu : MonoBehaviour {
 
 	public void Continuaton()
 	{
-		//todo continue
+		levelManager.ContinueGame();
+		Application.LoadLevel(PlayerPrefs.GetString("level"));
 	}
 
 	public void QuitGame()

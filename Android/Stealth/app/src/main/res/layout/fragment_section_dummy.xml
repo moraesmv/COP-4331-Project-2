@@ -6,14 +6,14 @@ android:orientation="vertical" >
 <ListView
     android:id="@+id/list"
     android:layout_width="match_parent"
-    android:layout_height="0dp"
+    android:layout_height="wrap_content"
     android:layout_gravity="bottom|center_horizontal"
     android:layout_marginTop="3dp"
-    android:layout_weight="0.11"
     android:clickable="false"
     android:fontFamily="@string/app_name"
     android:gravity="center_horizontal"
     android:textAllCaps="true"
+    android:isScrollContainer="true"
     android:textSize="18dp"
     android:textStyle="bold"/>
 

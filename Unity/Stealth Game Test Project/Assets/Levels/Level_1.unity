@@ -16010,10 +16010,10 @@ MonoBehaviour:
     m_Bits: 0
   treasureMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   doorMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   horizontalRayCount: 4
   verticalRayCount: 4
 --- !u!1 &1671570372

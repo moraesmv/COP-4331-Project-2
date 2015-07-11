@@ -4,9 +4,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.Serializable;
+import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Raxl on 7/7/15.
@@ -16,33 +18,32 @@ public class Score implements Serializable {
     private int id;
     private int score;
     private String initials;
-    private int levelCompleteTime;
+    private String levelCompleteTime;
     private Date date;
 
-    private static final String TAG_ID = "id";
-    private static final String TAG_SCORE = "score";
-    private static final String TAG_INITIALS = "initials";
-    private static final String TAG_TIME = "time";
-    private static final String TAG_DATE = "date";
+    private static final String TAG_ID = "Id";
+    private static final String TAG_SCORE = "Score";
+    private static final String TAG_INITIALS = "Initials";
+    private static final String TAG_TIME = "LevelCompleteTime";
+    private static final String TAG_DATE = "Date";
 
     public Score (JSONObject jO) throws JSONException, ParseException
     {
+        System.out.println(jO.toString());
         id = jO.getInt(TAG_ID);
         score = jO.getInt(TAG_SCORE);
         initials = jO.getString(TAG_INITIALS);
-        levelCompleteTime = jO.getInt(TAG_TIME);
+        long intTime = (long)jO.getInt(TAG_TIME);
+        long minute = TimeUnit.SECONDS.toMinutes(intTime);
+        long second = TimeUnit.SECONDS.toSeconds(intTime) - (TimeUnit.SECONDS.toMinutes(intTime) *60);
+
+        levelCompleteTime = ""+ minute + " minutes " + second + " seconds";
 
         String dateStr = jO.getString(TAG_DATE);
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         date = sdf.parse(dateStr);
     }
 
-    public Score (String score, String initial, Integer time)
-    {
-
-
-
-    }
 
     public int getId() {
         return id;
@@ -68,11 +69,11 @@ public class Score implements Serializable {
         this.initials = initials;
     }
 
-    public int getLevelCompleteTime() {
+    public String getLevelCompleteTime() {
         return levelCompleteTime;
     }
 
-    public void setLevelCompleteTime(int levelCompleteTime) {
+    public void setLevelCompleteTime(String levelCompleteTime) {
         this.levelCompleteTime = levelCompleteTime;
     }
 

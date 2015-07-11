@@ -26,6 +26,8 @@ public class LevelManager : MonoBehaviour {
 	
 	}
 
+
+
 	public void RespawnPlayer()
 	{
 		StartCoroutine("RespawnPlayerCo");
@@ -46,6 +48,23 @@ public class LevelManager : MonoBehaviour {
 		player.transform.position = checkPoint.transform.position;
 		Instantiate(respawnParticle, checkPoint.transform.position, checkPoint.transform.rotation);
 
+	}
+	
+
+	public void ContinueGame()
+	{
+		StartCoroutine("ContinueGameCo");
+	}
+	
+	public void ContinueGameCo()
+	{
+
+		ScoreManager.AddPoints(-pointPenaltyDeath);
+		player.enabled = true;
+		player.GetComponent<Renderer>().enabled = true;
+		player.transform.position = checkPoint.transform.position;
+		Instantiate(respawnParticle, checkPoint.transform.position, checkPoint.transform.rotation);
+		
 	}
 
 }

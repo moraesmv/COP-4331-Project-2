@@ -20,10 +20,10 @@ public class CustomAdapter extends ArrayAdapter
     Context context;
 
     /**
-     * Create a adapter to generate the selection screen for the cyphers
+     * Create a adapter to generate the selection screen for the scores
      *
      * @param context  the context of the current  activity
-     * @param resource the cyphers available on the device
+     * @param resource the scores available
      */
     public CustomAdapter(Context context, ArrayList<Score> resource)
     {
@@ -34,8 +34,7 @@ public class CustomAdapter extends ArrayAdapter
     }
 
     /**
-     * Generate and display the cyphers accepted by the device and its
-     * corresponding checkbox
+     * Generate and display the scores
      *
      * @param position    position of the item
      * @param convertView the area to place generated items
@@ -57,7 +56,7 @@ public class CustomAdapter extends ArrayAdapter
         if (scoreItems.get(position) != null)
         {
             Log.i(TAG, "getView - position " + position);
-            score.setText((scoreItems.get(position).getScore()));
+            score.setText(""+(scoreItems.get(position).getScore()));
             initials.setText((scoreItems.get(position).getInitials()));
             time.setText((scoreItems.get(position).getLevelCompleteTime()));
 
