@@ -8,7 +8,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.ListView;
 import android.widget.Switch;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -25,11 +28,10 @@ import java.util.ArrayList;
 
 public class MainActivity extends FragmentActivity implements View.OnClickListener {
 
-    // URL to get contacts JSON
+    // URI to get score JSON
     private static String uri;
     private static String uri2;
 
-    // JSON Node names
     private static final String TAG_SCORES = "scores";
 
     ArrayList<Score> scoreList;
@@ -91,22 +93,30 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         FragmentManager fm = getSupportFragmentManager();
         scoreChoice = (ScoreChoice) fm.findFragmentByTag(TAG_SCORES);
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        if (scoreChoice != null) {
 
-            scoreChoice = ScoreChoice.newInstance(scoreList);
-            ft.replace(R.id.score_list, scoreChoice, TAG_SCORES);
-            ft.commit();
-        
+            FrameLayout scoreView = (FrameLayout) findViewById(R.id.score_list);
+            scoreView.removeAllViewsInLayout();
+            ft.remove(scoreChoice);
+            //Toast toast = Toast.makeText(getApplicationContext(), scoreChoice.toString(), Toast.LENGTH_LONG);
+            //toast.show();
+        }
+        scoreChoice = ScoreChoice.newInstance(scoreList);
+        ft.add(R.id.score_list, scoreChoice, TAG_SCORES);
+        ft.commit();
+
     }
 
 
     public void readJsonFromUrl(String url)
     {
+
         JsonArrayRequest jreq = new JsonArrayRequest(url,
                 new Response.Listener<JSONArray>() {
 
                     @Override
                     public void onResponse(JSONArray response) {
-
+                        scoreList.clear();
                         for (int i = 0; i < response.length(); i++) {
                             try {
 
