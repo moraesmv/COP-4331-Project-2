@@ -1,10 +1,17 @@
 var Entry = require('./schemas/entry');
 var Leaderboard = require('./schemas/leaderboard');
 var Level = require('./schemas/level');
-
-
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+
+mongoose.connect(process.env.MONGOLAB_URI, function (err, res) {
+    if(err)
+    {
+        console.log('Error connecting to MongoDB: ' + err);
+    }
+    else{
+        console.log('Successfully connected to MongoDB');
+    }
+});
 
 var EntryModel = mongoose.model('Entry');
 var LeaderboardModel = mongoose.model('Leaderboard');

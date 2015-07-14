@@ -1,4 +1,3 @@
-var PORT = 8081;
 // When requiring the routes folder, it automatically gets the index.js file
 var routes = require('./routes');
 var site = require('./routes/site');
@@ -21,6 +20,8 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 // Load files from the Schema 
 
+var PORT = process.env.PORT | 8080;
+console.log(process.env.MONGOLAB_URI);
 
 // app.use(express.static(__dirname + '/public'));
 // Routing for the different pages
