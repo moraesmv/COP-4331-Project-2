@@ -148,6 +148,10 @@
     <Compile Include="Migrations\201506290140415_initial.Designer.cs">
       <DependentUpon>201506290140415_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201507071741370_changeDateToString.cs" />
+    <Compile Include="Migrations\201507071741370_changeDateToString.Designer.cs">
+      <DependentUpon>201507071741370_changeDateToString.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\LeaderboardEntry.cs" />
@@ -207,6 +211,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201506290140415_initial.resx">
       <DependentUpon>201506290140415_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507071741370_changeDateToString.resx">
+      <DependentUpon>201507071741370_changeDateToString.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

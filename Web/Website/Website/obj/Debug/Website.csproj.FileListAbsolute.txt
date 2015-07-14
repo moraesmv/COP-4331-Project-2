@@ -37,5 +37,5 @@ C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Websit
 C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\obj\Debug\Website.csproj.GenerateResource.Cache
 C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\obj\Debug\Website.dll
 C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\obj\Debug\Website.pdb
-C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\bin\Website.dll.CodeAnalysisLog.xml
-C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\bin\Website.dll.lastcodeanalysissucceeded
+C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\obj\Debug\Website.csprojResolveAssemblyReference.cache
+C:\Users\Xavier\Documents\School\COP4331\Project 2\COP-4331-Project-2\Web\Website\Website\obj\Debug\Website.Migrations.changeDateToString.resources
