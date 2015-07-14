@@ -27,13 +27,11 @@ app.use(bodyParser.json());
 app.get('/', site.index);
 
 app.get('/api/:level/:board', api.getBoard);
+app.post('/api/debug', api.addEntry);
 app.get('/api/:level', api.getLevel);
-app.get('/api/debug', api.addEntry);
 app.get('/api/', api.allLevels);
 
-app.post('/api/', api.addEntry);
-
-
+// app.post('/api/', api.addEntry);
 
 // This will be used once the DB is setup and routing is configured
 // app.get('/api/:timeframe/:type', leaderboard.api);
@@ -42,6 +40,12 @@ app.get('/:page', site.page);
 process.on('uncaughtException', function (err) {
     console.log(err);
 }); 
+
+process.on('SIGINT', function(){
+    console.log('Exiting');
+    api.shutdown();
+    process.exit(0);
+});
 
 http.createServer(app).listen(PORT, function () {
     console.log("Listening on port: " + PORT);
