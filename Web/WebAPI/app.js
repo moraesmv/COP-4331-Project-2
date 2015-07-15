@@ -20,8 +20,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 // Load files from the Schema 
 
-var PORT = process.env.PORT | 8080;
-console.log(process.env.MONGOLAB_URI);
+var PORT = process.env.PORT || 8080;
 
 // app.use(express.static(__dirname + '/public'));
 // Routing for the different pages

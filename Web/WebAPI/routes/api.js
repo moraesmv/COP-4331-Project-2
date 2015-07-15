@@ -3,7 +3,10 @@ var Leaderboard = require('./schemas/leaderboard');
 var Level = require('./schemas/level');
 var mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGOLAB_URI, function (err, res) {
+var MongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost/test';
+console.log(MongoURI);
+
+mongoose.connect(MongoURI, function (err, res) {
     if(err)
     {
         console.log('Error connecting to MongoDB: ' + err);
@@ -51,7 +54,7 @@ exports.getLevel = function(req, res){
             };
             
             LevelModel.populate(doc, options, function(err, lvl){
-                if(err) res.send('there was an error');
+                if(err || lvl == null) res.send('there was an error');
                 res.send(lvl.Leaderboards);
                 // res.send(lvl);
             });
@@ -81,7 +84,7 @@ exports.getBoard = function(req, res){
             };
             
             LevelModel.populate(doc, options, function(err, lvl){
-                if(err) res.send('there was an error');
+                if(err || lvl == null) res.send('there was an error');
                 
                 var sorted = lvl.Leaderboards[board].Entries;
                 sorted = sorted.sort(function(a, b){
