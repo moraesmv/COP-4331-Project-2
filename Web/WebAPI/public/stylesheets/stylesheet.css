@@ -1,0 +1,190 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Helvetica;
+	background: #404040 url("night.jpg") top;
+	height: 100%;
+}
+
+h1
+{
+	color:lightgray;
+}
+
+#nav
+{
+	background-color: #222;
+}
+
+#nav_wrapper
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ccc;
+}
+
+#nav ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li
+{
+	display: inline-block;
+}
+
+#nav ul li:hover
+{
+	background-color: #686868;
+}
+
+#nav ul li img
+{
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#nav ul li a,visited
+{
+	display: block;
+	padding: 15px;
+}
+
+#nav ul li:hover ul
+{
+	display: block;
+}
+
+#nav ul ul
+{
+	display: none;
+	position: absolute;
+	background-color: #222;
+	min-width: 275px;
+	text-align: left;
+}
+
+#nav ul ul li
+{
+	display: block;
+}
+
+#nav ul ul li a,visited
+{
+	color: #ccc;
+}
+
+h1
+{
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+
+.steal
+{
+	opacity: .6;
+	color: #A80000;
+	font-style: italic;
+}
+
+
+p
+{
+	font-family: "Arial";
+	font-weight: bold;
+	padding-left: 25px;
+	font-size: 20px;
+	color:lightgray;
+}
+
+#footer
+{
+	display: block;
+	position: fixed;
+	bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #222;
+}
+
+#footer p
+{
+	font-size: 15px;
+	text-align: right;
+	padding-right: 5px;
+	color: black;
+}
+
+#copy
+{
+	height: 10px;
+	width: 10px;
+}
+
+#game
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width: 350px;
+}
+
+#downbut
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.leaderhead
+{
+	font-style: italic;
+}
+
+.score
+{
+	padding-left: 3em;
+}
+
+ol
+{
+	text-align: center;
+	list-style-type: none;
+	font-size: 25px;
+	color: gold;
+}
+
+.levels
+{
+	text-align: center;
+	padding-left: -10px;
+}
+
+
+.levels a
+{
+	padding-right: 10px;
+	color:gold;
+}
+
+.name
+{
+	font-size: 30px;
+	color: cyan;
+}
+
+#synopsis
+{
+	text-align: center;
+}
