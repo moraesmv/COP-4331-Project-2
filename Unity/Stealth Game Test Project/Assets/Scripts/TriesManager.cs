@@ -10,10 +10,20 @@ public class TriesManager : MonoBehaviour {
 	Text text;
 
 	private LevelManager levelManager;
+	private ScoreManager scoreManager;
+	private TimeManager timeManager;
 
 	public bool gameOver;
+	public bool dead = false;
 
 	public GameObject gameOverScreen;
+	public GameObject currentLevel;
+	public GameObject currentTime;
+	public GameObject currentScore;
+
+	private CurrentLevel levelCurrent;
+	private CurrentScore scoreCurrent;
+	private CurrentTime timeCurrent;
 
 	public PlayerController2 player;
 
@@ -23,6 +33,10 @@ public class TriesManager : MonoBehaviour {
 
 	void Start()
 	{
+
+		levelCurrent = currentLevel.GetComponent<CurrentLevel> ();
+		scoreCurrent = currentScore.GetComponent<CurrentScore> ();
+		timeCurrent = currentTime.GetComponent<CurrentTime> ();
 		text = GetComponent<Text>();
 		tries = PlayerPrefs.GetInt("PlayerTries");
 		player = FindObjectOfType<PlayerController2>();
@@ -34,19 +48,22 @@ public class TriesManager : MonoBehaviour {
 	{
 		if (tries < 1 && !gameOver)
 		{
-			levelManager.ContinueGame();
 			gameOver = true;
 		}
 		if (gameOver)
 		{
+			levelCurrent.txt.text = "leveltest";
+			scoreCurrent.txt.text = "scoretest";
+			timeCurrent.txt.text = "timetest";
 			gameOverScreen.SetActive(true);
 			player.gameObject.SetActive(false);
-			PlayerPrefs.SetInt("PlayerTries", maxTries);
 			waitAfterGameOver -= Time.deltaTime;
 		}
 
 		if (waitAfterGameOver < 0)
 		{
+			PlayerPrefs.SetString("levelGameOver", Application.loadedLevelName);
+			Reset();
 			Application.LoadLevel(mainMenu);
 		}
 		text.text = "X " + tries;
@@ -54,8 +71,12 @@ public class TriesManager : MonoBehaviour {
 	
 	public void Captured()
 	{
-		tries--;
-		PlayerPrefs.SetInt("PlayerTries", tries);
+		if(!dead)
+		{
+			tries--;
+			PlayerPrefs.SetInt("PlayerTries", tries);
+			dead = true;
+		}
 	}
 
 	public void lifeUp()

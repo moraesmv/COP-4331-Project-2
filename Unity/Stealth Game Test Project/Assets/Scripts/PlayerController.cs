@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	public LayerMask whatIsGround;
 	public float jumpForce = 400f;
 	public int score = 0;
+	private bool dead = false; 
 
 	public bool levelComplete = false;
 	
@@ -67,5 +68,6 @@ public class PlayerController : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	
+
+
 }

@@ -48,6 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Scripts\CheckPoint.cs" />
+     <Compile Include="Assets\Scripts\CurrentLevel.cs" />
+     <Compile Include="Assets\Scripts\CurrentScore.cs" />
+     <Compile Include="Assets\Scripts\CurrentTime.cs" />
      <Compile Include="Assets\Scripts\DestroyFinishedParticle.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\ItemPickUp.cs" />
@@ -65,6 +68,7 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerController2.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\TimeManager.cs" />
      <Compile Include="Assets\Scripts\TriesManager.cs" />
      <Compile Include="Assets\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\Utility\AutoMobileShaderSwitch.cs" />

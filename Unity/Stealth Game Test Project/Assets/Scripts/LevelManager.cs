@@ -40,12 +40,12 @@ public class LevelManager : MonoBehaviour {
 		player.GetComponent<Renderer>().enabled = false;
 		player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		ScoreManager.AddPoints(-pointPenaltyDeath);
-		//todo gameover
 		Debug.Log ("Player Respawn");
 		yield return new WaitForSeconds (respawnDelay);
+		player.transform.position = checkPoint.transform.position;
 		player.enabled = true;
 		player.GetComponent<Renderer>().enabled = true;
-		player.transform.position = checkPoint.transform.position;
+		triesManager.dead = false;
 		Instantiate(respawnParticle, checkPoint.transform.position, checkPoint.transform.rotation);
 
 	}
@@ -59,12 +59,9 @@ public class LevelManager : MonoBehaviour {
 	public void ContinueGameCo()
 	{
 
-		ScoreManager.AddPoints(-pointPenaltyDeath);
+		ScoreManager.Reset();
 		player.enabled = true;
 		player.GetComponent<Renderer>().enabled = true;
-		player.transform.position = checkPoint.transform.position;
-		Instantiate(respawnParticle, checkPoint.transform.position, checkPoint.transform.rotation);
-		
 	}
 
 }

@@ -6,6 +6,8 @@ public class LevelLoader : MonoBehaviour
 
 	private bool playerInZone;
 	public string levelToLoad;
+	public string currentLevel;
+	public int timeInLevel;
 
 	// Use this for initialization
 	void Start ()
@@ -17,6 +19,7 @@ public class LevelLoader : MonoBehaviour
 	void Update ()
 	{
 		if (playerInZone) {
+
 			Application.LoadLevel(levelToLoad);
 		}
 
@@ -25,6 +28,10 @@ public class LevelLoader : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.name == "Player") {
+			currentLevel = levelToLoad;
+			PlayerPrefs.SetString("LevelLoaded", currentLevel);
+			timeInLevel = (int)TimeManager.GetTime();
+			PlayerPrefs.SetInt("TimeInLevel", timeInLevel);
 			playerInZone = true;
 		}
 

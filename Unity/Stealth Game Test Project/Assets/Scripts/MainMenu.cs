@@ -19,8 +19,8 @@ public class MainMenu : MonoBehaviour {
 
 	public void Continuaton()
 	{
-		levelManager.ContinueGame();
-		Application.LoadLevel(PlayerPrefs.GetString("level"));
+		//levelManager.ContinueGame();
+		Application.LoadLevel(PlayerPrefs.GetString("levelGameOver"));
 	}
 
 	public void QuitGame()

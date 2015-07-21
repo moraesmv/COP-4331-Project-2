@@ -20,10 +20,11 @@ public class KillPlayer : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.name == "Player")
-		{
-			triesManager.Captured();
-			levelManager.RespawnPlayer();
-		}
+			if (other.name == "Player")
+			{
+				triesManager.Captured();
+				levelManager.RespawnPlayer();
+			}
+		Debug.Log(levelManager);
 	}
 }

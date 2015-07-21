@@ -104,7 +104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &167140
 GameObject:
   m_ObjectHideFlags: 1
@@ -147,7 +147,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 480382}
+  - 4: {fileID: 428044}
   - 114: {fileID: 11481496}
   m_Layer: 0
   m_Name: PauseMenu
@@ -173,7 +173,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &480382
+--- !u!4 &428044
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -713,7 +713,7 @@ RectTransform:
   - {fileID: 22424824}
   - {fileID: 22447984}
   - {fileID: 22492076}
-  m_Father: {fileID: 480382}
+  m_Father: {fileID: 428044}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
