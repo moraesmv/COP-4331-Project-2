@@ -48,9 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Scripts\CheckPoint.cs" />
-     <Compile Include="Assets\Scripts\CurrentLevel.cs" />
-     <Compile Include="Assets\Scripts\CurrentScore.cs" />
-     <Compile Include="Assets\Scripts\CurrentTime.cs" />
      <Compile Include="Assets\Scripts\DestroyFinishedParticle.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\ItemPickUp.cs" />
@@ -58,15 +55,11 @@
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\Old\Controller2D.cs" />
-     <Compile Include="Assets\Scripts\Old\FollowCamera.cs" />
-     <Compile Include="Assets\Scripts\Old\Player.cs" />
-     <Compile Include="Assets\Scripts\Old\ScoreText.cs" />
-     <Compile Include="Assets\Scripts\Old\Treasure.cs" />
+     <Compile Include="Assets\Scripts\MyChangeableText.cs" />
      <Compile Include="Assets\Scripts\Parallax.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerController2.cs" />
+     <Compile Include="Assets\Scripts\SaveValuesToDb.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\TimeManager.cs" />
      <Compile Include="Assets\Scripts\TriesManager.cs" />

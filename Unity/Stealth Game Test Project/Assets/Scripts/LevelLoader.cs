@@ -8,11 +8,13 @@ public class LevelLoader : MonoBehaviour
 	public string levelToLoad;
 	public string currentLevel;
 	public int timeInLevel;
+	private int levelNumber = 1;
 
 	// Use this for initialization
 	void Start ()
 	{
 		playerInZone = false;
+		PlayerPrefs.SetInt("Level", levelNumber);
 	}
 	
 	// Update is called once per frame
@@ -28,10 +30,8 @@ public class LevelLoader : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.name == "Player") {
-			currentLevel = levelToLoad;
-			PlayerPrefs.SetString("LevelLoaded", currentLevel);
-			timeInLevel = (int)TimeManager.GetTime();
-			PlayerPrefs.SetInt("TimeInLevel", timeInLevel);
+			levelNumber++;
+			PlayerPrefs.SetInt("Level", levelNumber);
 			playerInZone = true;
 		}
 

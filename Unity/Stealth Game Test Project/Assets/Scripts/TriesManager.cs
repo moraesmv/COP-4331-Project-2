@@ -1,46 +1,42 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class TriesManager : MonoBehaviour {
 	
 	public static int tries;
 	public int maxTries = 3;
+	public bool dead = false;
 	
-	Text text;
-
-	private LevelManager levelManager;
+	public MyChangeableText health;
+	public MyChangeableText currentLevel;
+	public MyChangeableText currentTime;
+	public MyChangeableText currentScore;
+	
 	private ScoreManager scoreManager;
 	private TimeManager timeManager;
 
+
 	public bool gameOver;
-	public bool dead = false;
 
 	public GameObject gameOverScreen;
-	public GameObject currentLevel;
-	public GameObject currentTime;
-	public GameObject currentScore;
-
-	private CurrentLevel levelCurrent;
-	private CurrentScore scoreCurrent;
-	private CurrentTime timeCurrent;
 
 	public PlayerController2 player;
 
 	public string mainMenu;
+	public Button myselfButton;
 
 	public float waitAfterGameOver;
 
 	void Start()
 	{
-
-		levelCurrent = currentLevel.GetComponent<CurrentLevel> ();
-		scoreCurrent = currentScore.GetComponent<CurrentScore> ();
-		timeCurrent = currentTime.GetComponent<CurrentTime> ();
-		text = GetComponent<Text>();
+		timeManager = FindObjectOfType<TimeManager>();
+		scoreManager = FindObjectOfType<ScoreManager>();
+		myselfButton = GetComponent<Button>();
+		dead = false;
 		tries = PlayerPrefs.GetInt("PlayerTries");
 		player = FindObjectOfType<PlayerController2>();
-		levelManager = FindObjectOfType<LevelManager>();
 		gameOver = false;
 	}
 	
@@ -52,31 +48,31 @@ public class TriesManager : MonoBehaviour {
 		}
 		if (gameOver)
 		{
-			levelCurrent.txt.text = "leveltest";
-			scoreCurrent.txt.text = "scoretest";
-			timeCurrent.txt.text = "timetest";
+			//timeManager.HighscoreUpdate();
+			//scoreManager.HighscoreUpdate();
+			currentTime.ChangeMyText( "" + PlayerPrefs.GetInt("PlayerTime"));
+			currentScore.ChangeMyText( "" + PlayerPrefs.GetInt("PlayerScore"));
+			currentLevel.ChangeMyText( "" + PlayerPrefs.GetInt("Level"));
 			gameOverScreen.SetActive(true);
-			player.gameObject.SetActive(false);
-			waitAfterGameOver -= Time.deltaTime;
-		}
+			player.enabled = false;
+			player.GetComponent<Renderer>().enabled = false;
+			player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			timeManager.timeActive = false;
 
-		if (waitAfterGameOver < 0)
-		{
-			PlayerPrefs.SetString("levelGameOver", Application.loadedLevelName);
-			Reset();
-			Application.LoadLevel(mainMenu);
+			
 		}
-		text.text = "X " + tries;
+		
+		health.ChangeMyText( "X " + tries);
 	}
 	
 	public void Captured()
 	{
-		if(!dead)
-		{
 			tries--;
-			PlayerPrefs.SetInt("PlayerTries", tries);
-			dead = true;
+		if (tries < 0)
+		{
+			tries = 0;
 		}
+			PlayerPrefs.SetInt("PlayerTries", tries);
 	}
 
 	public void lifeUp()
@@ -89,6 +85,5 @@ public class TriesManager : MonoBehaviour {
 	{
 		PlayerPrefs.SetInt("PlayerTries", maxTries);
 	}
-	
 
 }

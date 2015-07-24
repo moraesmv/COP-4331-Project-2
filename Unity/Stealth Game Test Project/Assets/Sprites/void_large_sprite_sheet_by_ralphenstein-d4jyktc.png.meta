@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 8dd27ebbf64be43a9920a40d444df2fc
+timeCreated: 1437677291
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: void_large_sprite_sheet_by_ralphenstein-d4jyktc_0
+    21300002: void_large_sprite_sheet_by_ralphenstein-d4jyktc_1
+    21300004: void_large_sprite_sheet_by_ralphenstein-d4jyktc_2
+    21300006: void_large_sprite_sheet_by_ralphenstein-d4jyktc_3
+    21300008: void_large_sprite_sheet_by_ralphenstein-d4jyktc_4
+    21300010: void_large_sprite_sheet_by_ralphenstein-d4jyktc_5
+    21300012: void_large_sprite_sheet_by_ralphenstein-d4jyktc_6
+    21300014: void_large_sprite_sheet_by_ralphenstein-d4jyktc_7
+    21300016: void_large_sprite_sheet_by_ralphenstein-d4jyktc_8
+    21300018: void_large_sprite_sheet_by_ralphenstein-d4jyktc_9
+    21300020: void_large_sprite_sheet_by_ralphenstein-d4jyktc_10
+    21300022: void_large_sprite_sheet_by_ralphenstein-d4jyktc_11
+    21300024: void_large_sprite_sheet_by_ralphenstein-d4jyktc_12
+    21300026: void_large_sprite_sheet_by_ralphenstein-d4jyktc_13
+    21300028: void_large_sprite_sheet_by_ralphenstein-d4jyktc_14
+    21300030: void_large_sprite_sheet_by_ralphenstein-d4jyktc_15
+    21300032: void_large_sprite_sheet_by_ralphenstein-d4jyktc_16
+    21300034: void_large_sprite_sheet_by_ralphenstein-d4jyktc_17
+    21300036: void_large_sprite_sheet_by_ralphenstein-d4jyktc_18
+    21300038: void_large_sprite_sheet_by_ralphenstein-d4jyktc_19
+    21300040: void_large_sprite_sheet_by_ralphenstein-d4jyktc_20
+    21300042: void_large_sprite_sheet_by_ralphenstein-d4jyktc_21
+    21300044: void_large_sprite_sheet_by_ralphenstein-d4jyktc_22
+    21300046: void_large_sprite_sheet_by_ralphenstein-d4jyktc_23
+    21300048: void_large_sprite_sheet_by_ralphenstein-d4jyktc_24
+    21300050: void_large_sprite_sheet_by_ralphenstein-d4jyktc_25
+    21300052: void_large_sprite_sheet_by_ralphenstein-d4jyktc_26
+    21300054: void_large_sprite_sheet_by_ralphenstein-d4jyktc_27
+    21300056: void_large_sprite_sheet_by_ralphenstein-d4jyktc_28
+    21300058: void_large_sprite_sheet_by_ralphenstein-d4jyktc_29
+    21300060: void_large_sprite_sheet_by_ralphenstein-d4jyktc_30
+    21300062: void_large_sprite_sheet_by_ralphenstein-d4jyktc_31
+    21300064: void_large_sprite_sheet_by_ralphenstein-d4jyktc_32
+    21300066: void_large_sprite_sheet_by_ralphenstein-d4jyktc_33
+    21300068: void_large_sprite_sheet_by_ralphenstein-d4jyktc_34
+    21300070: void_large_sprite_sheet_by_ralphenstein-d4jyktc_35
+    21300072: void_large_sprite_sheet_by_ralphenstein-d4jyktc_36
+    21300074: void_large_sprite_sheet_by_ralphenstein-d4jyktc_37
+    21300076: void_large_sprite_sheet_by_ralphenstein-d4jyktc_38
+    21300078: void_large_sprite_sheet_by_ralphenstein-d4jyktc_39
+    21300080: void_large_sprite_sheet_by_ralphenstein-d4jyktc_40
+    21300082: void_large_sprite_sheet_by_ralphenstein-d4jyktc_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 88
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 100
+        width: 35
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 100
+        width: 45
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 200
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 100
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 100
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 200
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 100
+        width: 37
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_8
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 100
+        width: 37
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 100
+        width: 43
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 200
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_11
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 100
+        width: 38
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_12
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 100
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_13
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 200
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 100
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_15
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 100
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_16
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 100
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_17
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 100
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 39
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_24
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_25
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_26
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_27
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 39
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_28
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_29
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_30
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_31
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 200
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 200
+        width: 35
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_34
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 200
+        width: 45
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 200
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_36
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 200
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 200
+        width: 38
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_38
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 200
+        width: 42
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_39
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 200
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_40
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 200
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: void_large_sprite_sheet_by_ralphenstein-d4jyktc_41
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 200
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

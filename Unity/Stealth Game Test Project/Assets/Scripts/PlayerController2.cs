@@ -11,7 +11,6 @@ public class PlayerController2 : MonoBehaviour
 	public Transform groundCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
-	private bool dead = false;
 
 	Animator anim;
 
@@ -67,9 +66,4 @@ public class PlayerController2 : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
-	void Dead(bool boolean)
-	{
-		dead = boolean;
-	}
-	
 }

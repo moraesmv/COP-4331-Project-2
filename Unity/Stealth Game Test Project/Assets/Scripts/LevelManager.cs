@@ -11,13 +11,18 @@ public class LevelManager : MonoBehaviour {
 	public GameObject respawnParticle;
 	public int pointPenaltyDeath;
 
+
 	public float respawnDelay;
 
+	public KillPlayer killPlayer;
+	public TimeManager timeManager;
 	public TriesManager triesManager;
 
 	// Use this for initialization
 	void Start () {
 		player = FindObjectOfType<PlayerController2>();
+		killPlayer = FindObjectOfType<KillPlayer>();
+		timeManager = FindObjectOfType<TimeManager>();
 		triesManager = FindObjectOfType<TriesManager>();
 	}
 	
@@ -45,9 +50,9 @@ public class LevelManager : MonoBehaviour {
 		player.transform.position = checkPoint.transform.position;
 		player.enabled = true;
 		player.GetComponent<Renderer>().enabled = true;
-		triesManager.dead = false;
+		timeManager.timeActive = true;
 		Instantiate(respawnParticle, checkPoint.transform.position, checkPoint.transform.rotation);
-
+		triesManager.dead = false;
 	}
 	
 

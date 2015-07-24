@@ -1,12 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TriesManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TriesManager.cs" Line="88" Column="2" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="54" Column="94" />
+      <File FileName="Assets/Scripts/KillPlayer.cs" Line="29" Column="5" />
+      <File FileName="Assets/Scripts/TimeManager.cs" Line="51" Column="40" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="38" Column="23" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="11" Column="29" />
+      <File FileName="Assets/Scripts/MyChangeableText.cs" Line="18" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="CurrentTime.cs" selected="True" />
+              <Node name="TriesManager.cs" selected="True" />
             </Node>
           </Node>
         </State>
