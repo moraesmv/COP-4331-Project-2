@@ -27,6 +27,11 @@ public class LevelLoader : MonoBehaviour
 
 	}
 
+	public void LoadStart()
+	{
+		Application.LoadLevel("TitleMenu");
+	}
+
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.name == "Player") {

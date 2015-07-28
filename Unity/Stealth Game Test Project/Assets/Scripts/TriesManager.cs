@@ -14,7 +14,6 @@ public class TriesManager : MonoBehaviour {
 	public MyChangeableText currentTime;
 	public MyChangeableText currentScore;
 	
-	private ScoreManager scoreManager;
 	private TimeManager timeManager;
 
 
@@ -32,7 +31,6 @@ public class TriesManager : MonoBehaviour {
 	void Start()
 	{
 		timeManager = FindObjectOfType<TimeManager>();
-		scoreManager = FindObjectOfType<ScoreManager>();
 		myselfButton = GetComponent<Button>();
 		dead = false;
 		tries = PlayerPrefs.GetInt("PlayerTries");
@@ -48,8 +46,6 @@ public class TriesManager : MonoBehaviour {
 		}
 		if (gameOver)
 		{
-			//timeManager.HighscoreUpdate();
-			//scoreManager.HighscoreUpdate();
 			currentTime.ChangeMyText( "" + PlayerPrefs.GetInt("PlayerTime"));
 			currentScore.ChangeMyText( "" + PlayerPrefs.GetInt("PlayerScore"));
 			currentLevel.ChangeMyText( "" + PlayerPrefs.GetInt("Level"));

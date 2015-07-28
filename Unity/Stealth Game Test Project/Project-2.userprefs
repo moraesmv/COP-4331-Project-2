@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TriesManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveValuesToDb.cs">
     <Files>
+      <File FileName="Assets/Scripts/SaveValuesToDb.cs" Line="10" Column="30" />
       <File FileName="Assets/Scripts/TriesManager.cs" Line="88" Column="2" />
       <File FileName="Assets/Scripts/LevelManager.cs" Line="54" Column="94" />
       <File FileName="Assets/Scripts/KillPlayer.cs" Line="29" Column="5" />
@@ -12,11 +13,9 @@
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True">
-              <Node name="TriesManager.cs" selected="True" />
-            </Node>
+            <Node name="Scripts" expanded="True" />
           </Node>
         </State>
       </Pad>

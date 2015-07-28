@@ -62,7 +62,8 @@ GameObject:
   - 224: {fileID: 22462278}
   - 222: {fileID: 22207476}
   - 114: {fileID: 11491472}
-  - 114: {fileID: 11461868}
+  - 114: {fileID: 11499774}
+  - 114: {fileID: 11428602}
   m_Layer: 5
   m_Name: Health Number
   m_TagString: Untagged
@@ -80,7 +81,7 @@ GameObject:
   - 224: {fileID: 22459390}
   - 222: {fileID: 22273050}
   - 114: {fileID: 11440494}
-  - 114: {fileID: 11425034}
+  - 114: {fileID: 11455878}
   m_Layer: 5
   m_Name: CurrentLevel
   m_TagString: Untagged
@@ -203,7 +204,7 @@ GameObject:
   - 224: {fileID: 22447100}
   - 222: {fileID: 22232628}
   - 114: {fileID: 11441724}
-  - 114: {fileID: 11471876}
+  - 114: {fileID: 11459954}
   m_Layer: 5
   m_Name: TimeInLevel
   m_TagString: Untagged
@@ -255,7 +256,7 @@ GameObject:
   - 224: {fileID: 22456840}
   - 222: {fileID: 22203560}
   - 114: {fileID: 11486630}
-  - 114: {fileID: 11491750}
+  - 114: {fileID: 11444964}
   m_Layer: 5
   m_Name: ScoreLevel
   m_TagString: Untagged
@@ -271,6 +272,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 22489172}
+  - 114: {fileID: 11433486}
+  - 114: {fileID: 11479126}
   m_Layer: 5
   m_Name: GameOverScreen
   m_TagString: Untagged
@@ -429,7 +432,18 @@ MonoBehaviour:
   m_CharacterLimit: 3
   m_EndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: useInputText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_OnValueChange:
@@ -539,26 +553,31 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &11425034
+--- !u!114 &11428602
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131346}
+  m_GameObject: {fileID: 127356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a95b292176b4b4c8215ae9251d7399, type: 3}
+  m_Script: {fileID: 11500000, guid: 625d75032cf1f46cab9c40df2e8ad0cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTries: 3
-  currentLevel: {fileID: 11440494}
-  currentScore: {fileID: 11486630}
-  currentTime: {fileID: 11441724}
-  gameOver: 0
-  gameOverScreen: {fileID: 184990}
-  player: {fileID: 0}
-  mainMenu: TitleMenu
-  waitAfterGameOver: 0
+  instruction: {fileID: 11491472}
+--- !u!114 &11433486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47273d3c8910491e94b657bfbfafe74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 0}
+  initials: 
 --- !u!114 &11438522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -648,6 +667,18 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 01:10
+--- !u!114 &11444964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625d75032cf1f46cab9c40df2e8ad0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instruction: {fileID: 11486630}
 --- !u!114 &11447688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -700,6 +731,18 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Initials
+--- !u!114 &11455878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625d75032cf1f46cab9c40df2e8ad0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instruction: {fileID: 11440494}
 --- !u!114 &11459408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -721,26 +764,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11461868
+--- !u!114 &11459954
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127356}
+  m_GameObject: {fileID: 170832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a95b292176b4b4c8215ae9251d7399, type: 3}
+  m_Script: {fileID: 11500000, guid: 625d75032cf1f46cab9c40df2e8ad0cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTries: 3
-  currentLevel: {fileID: 11440494}
-  currentScore: {fileID: 11486630}
-  currentTime: {fileID: 11441724}
-  gameOver: 0
-  gameOverScreen: {fileID: 184990}
-  player: {fileID: 0}
-  mainMenu: TitleMenu
-  waitAfterGameOver: 3
+  instruction: {fileID: 11441724}
 --- !u!114 &11465420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -840,26 +875,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Score
---- !u!114 &11471876
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 170832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a95b292176b4b4c8215ae9251d7399, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxTries: 3
-  currentLevel: {fileID: 11440494}
-  currentScore: {fileID: 11486630}
-  currentTime: {fileID: 11441724}
-  gameOver: 0
-  gameOverScreen: {fileID: 184990}
-  player: {fileID: 0}
-  mainMenu: TitleMenu
-  waitAfterGameOver: 0
 --- !u!114 &11473880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -902,6 +917,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11479126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8167d0710ea2c479b96da1846f210f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: 
+  currentLevel: 
+  timeInLevel: 0
 --- !u!114 &11479730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -966,7 +995,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11465420}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11433486}
+        m_MethodName: SendToMongo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 11479126}
+        m_MethodName: LoadStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &11486022
@@ -1088,26 +1139,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 00
---- !u!114 &11491750
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a95b292176b4b4c8215ae9251d7399, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxTries: 3
-  currentLevel: {fileID: 11440494}
-  currentScore: {fileID: 11486630}
-  currentTime: {fileID: 11441724}
-  gameOver: 0
-  gameOverScreen: {fileID: 184990}
-  player: {fileID: 0}
-  mainMenu: TitleMenu
-  waitAfterGameOver: 0
 --- !u!114 &11494266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1124,6 +1155,29 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &11499774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a95b292176b4b4c8215ae9251d7399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTries: 3
+  dead: 0
+  health: {fileID: 11428602}
+  currentLevel: {fileID: 11455878}
+  currentTime: {fileID: 11459954}
+  currentScore: {fileID: 11444964}
+  gameOver: 0
+  gameOverScreen: {fileID: 184990}
+  player: {fileID: 0}
+  mainMenu: TitleMenu
+  myselfButton: {fileID: 0}
+  waitAfterGameOver: 0
 --- !u!222 &22203560
 CanvasRenderer:
   m_ObjectHideFlags: 1

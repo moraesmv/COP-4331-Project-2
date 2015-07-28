@@ -36,8 +36,7 @@ public class TimeManager : MonoBehaviour {
 	}
 
 	public void StopTimer () {
-		
-		//counterText.text = "00 : 00";
+
 		timeActive     = false;
 	}
 
@@ -57,13 +56,6 @@ public class TimeManager : MonoBehaviour {
 			Debug.Log( "Created new key at PlayerPref for timer " +timeToLevelComplete );
 			PlayerPrefs.SetInt ("Time", (int)timeToLevelComplete);
 		}
-
-		//NewScore ();
 		}
 		
-
-		public void NewScore () {
-			
-			
-	}
 }

@@ -31,8 +31,6 @@ public class LevelManager : MonoBehaviour {
 	
 	}
 
-
-
 	public void RespawnPlayer()
 	{
 		StartCoroutine("RespawnPlayerCo");

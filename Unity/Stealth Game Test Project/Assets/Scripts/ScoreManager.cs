@@ -55,12 +55,7 @@ public class ScoreManager : MonoBehaviour {
 		Debug.Log( "Created new key at PlayerPref for score " +score );
 		PlayerPrefs.SetInt ("Score", score);
 	}
-		//NewScore ();
-	}
-
 	
-	public void NewScore () {
-		
-
 	}
+	
 }
