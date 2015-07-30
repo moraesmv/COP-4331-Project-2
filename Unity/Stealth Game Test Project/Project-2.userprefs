@@ -2,27 +2,26 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveValuesToDb.cs">
     <Files>
-      <File FileName="Assets/Scripts/SaveValuesToDb.cs" Line="10" Column="30" />
-      <File FileName="Assets/Scripts/TriesManager.cs" Line="88" Column="2" />
-      <File FileName="Assets/Scripts/LevelManager.cs" Line="54" Column="94" />
-      <File FileName="Assets/Scripts/KillPlayer.cs" Line="29" Column="5" />
-      <File FileName="Assets/Scripts/TimeManager.cs" Line="51" Column="40" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="38" Column="23" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="11" Column="29" />
-      <File FileName="Assets/Scripts/MyChangeableText.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/SaveValuesToDb.cs" Line="34" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True" />
+            <Node name="Scripts" expanded="True">
+              <Node name="SaveValuesToDb.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Raxl/Desktop/Project-2/Assets/Scripts/SaveValuesToDb.cs" line="20" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets/Scripts/SaveValuesToDb.cs" line="28" offsetX="471" offsetY="405" expression="postHeader" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

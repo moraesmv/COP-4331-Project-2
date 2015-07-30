@@ -1,7 +1,7 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C87FCA03-B046-84D3-05AC-14A1021DF719}"
+# Visual Studio 2008
+
+Project("{0D2A5785-4FB3-A733-2F69-DC5FCDC0A7E3}") = "Project-2", "Assembly-CSharp.csproj", "{C87FCA03-B046-84D3-05AC-14A1021DF719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,7 +14,10 @@ Global
 		{C87FCA03-B046-84D3-05AC-14A1021DF719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C87FCA03-B046-84D3-05AC-14A1021DF719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -162,7 +165,5 @@ Global
 		$27.IncludeInstanceMembers = True
 		$27.IncludeStaticEntities = True
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
+
 EndGlobal
