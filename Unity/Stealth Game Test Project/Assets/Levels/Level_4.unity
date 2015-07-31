@@ -20045,10 +20045,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8167d0710ea2c479b96da1846f210f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Level_2
-  currentLevel: Level_1
+  levelToLoad: Level_5
+  currentLevel: Level_4
   timeInLevel: 0
-  levelNumber: 1
 --- !u!1 &2070256528
 GameObject:
   m_ObjectHideFlags: 0
@@ -20204,36 +20203,8 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428044, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
-      propertyPath: m_RootOrder
+    - target: {fileID: 190322, guid: cb228c2edadf645b3b130d8473199c1f, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

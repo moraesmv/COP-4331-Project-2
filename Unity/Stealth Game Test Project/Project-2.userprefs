@@ -1,8 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveValuesToDb.cs">
     <Files>
-      <File FileName="Assets/Scripts/SaveValuesToDb.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/SaveValuesToDb.cs" Line="42" Column="7" />
+      <File FileName="Assets/Scripts/KillPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController2.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +24,12 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Raxl/Desktop/Project-2/Assets/Scripts/SaveValuesToDb.cs" line="20" />
+      <Breakpoint file="/Users/Raxl/Desktop/Project-2/Assets/Scripts/SaveValuesToDb.cs" line="42" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Assets/Scripts/SaveValuesToDb.cs" line="28" offsetX="471" offsetY="405" expression="postHeader" liveUpdate="False" />
+    <Watch file="Assets/Scripts/SaveValuesToDb.cs" line="28" offsetX="471" offsetY="405" expression="postHeader" liveUpdate="True" />
+    <Watch file="Assets/Scripts/SaveValuesToDb.cs" line="33" offsetX="304" offsetY="480" expression="w" liveUpdate="False" />
+    <Watch file="Assets/Scripts/SaveValuesToDb.cs" line="27" offsetX="319" offsetY="390" expression="form" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

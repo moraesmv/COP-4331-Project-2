@@ -23,14 +23,23 @@ public class SaveValuesToDb : MonoBehaviour
 
 
 		string url = GetUrl(level);
+		url +="?";
+		url += "initials=" + initials;
+		url += "&";
+		url += "score=" + score.ToString();
+		url += "&";
+		url += "leveltime=" + time.ToString();
 
-		WWWForm form = new WWWForm();
-		form.AddField("Initials", initials);
-		form.AddField("Score", score);
-		form.AddField("LevelTime", time);
+		//WWWForm form = new WWWForm();
+		//form.AddField("initials", "mmm");
+		//form.AddField("score", "999");
+		//form.AddField("leveltime", "23");
+
+		//string json_string = @"{'initials':'arb', 'score':5000, 'leveltime': 342}";
 
 		// Upload to a cgi script
-		WWW w = new WWW(url, form);
+		//WWW ww = new WWW(url,)
+		WWW w = new WWW(url);
 		yield return w;
 		if (!string.IsNullOrEmpty(w.error)) {
 			Debug.Log(w.error);
@@ -38,19 +47,6 @@ public class SaveValuesToDb : MonoBehaviour
 		else {
 			Debug.Log("Finished Uploading");
 		}
-		//		var jsonString = "{ Initials:" + initials + ", Score:" + score + ", LevelTime:" + time + "}";
-//		
-//		var encoding = new System.Text.UTF8Encoding();
-//		var postHeader = new Dictionary<string, string>();
-//		
-//		postHeader.Add("Content-Type", "text/json");
-//
-//		print("jsonString: " + jsonString);
-//		
-//		WWW www = new WWW(url, encoding.GetBytes(jsonString), postHeader);
-		
-
-
 		Debug.Log("" + time + ", " + score + ", "+ level + ", "+ initials);
 			
 	}
@@ -65,17 +61,25 @@ public class SaveValuesToDb : MonoBehaviour
 	{
 		if (lv == 1)
 		{
-			return  "copstealth.herokuapp.com/api/1";
+			return  "copstealth.herokuapp.com/api/add/1";
 		}
 		else if (lv == 2)
 		{
-			return  "copstealth.herokuapp.com/api/2";
+			return  "copstealth.herokuapp.com/api/add/2";
 		}
 		else if (lv == 3)
 		{
-			return  "copstealth.herokuapp.com/api/3";
+			return  "copstealth.herokuapp.com/api/add/3";
 		}
-		return "copstealth.herokuapp.com/api/1";
+		else if (lv == 4)
+		{
+			return  "copstealth.herokuapp.com/api/add/4";
+		}
+		else if (lv == 5)
+		{
+			return  "copstealth.herokuapp.com/api/add/5";
+		}
+		return "copstealth.herokuapp.com/api/add/1";
 	}
 
 }
