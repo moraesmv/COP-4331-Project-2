@@ -24,7 +24,7 @@ public class LevelLoader : MonoBehaviour
 		if (playerInZone) {
 			levelNumber = LevelToNumber(levelToLoad);
 			PlayerPrefs.SetInt("Level", levelNumber );
-			Application.LoadLevel(levelToLoad);
+			Application.LoadLevel("Codec");
 		}
 
 	}

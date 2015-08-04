@@ -5,6 +5,8 @@ public class MainMenu : MonoBehaviour {
 
 	public string startLevel;
 
+
+
 	public int playerTries;
 
 	public int playerScore;
@@ -13,7 +15,9 @@ public class MainMenu : MonoBehaviour {
 	public void NewGwme()
 	{
 		PlayerPrefs.SetInt("PlayerTries", playerTries);
+		PlayerPrefs.SetInt("theLevel", 1);
 		PlayerPrefs.SetInt("PlayerScore", playerScore);
+		//Application.LoadLevel("Codec");
 		Application.LoadLevel(startLevel);
 	}
 

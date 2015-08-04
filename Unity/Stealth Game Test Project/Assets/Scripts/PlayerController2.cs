@@ -5,7 +5,7 @@ public class PlayerController2 : MonoBehaviour
 {
 
 	public float moveSpeed = 7f;
-	public float jumpForce = 17f;
+	public float jumpForce = 7f;
 	bool facingRight = true;
 	bool grounded = false;
 	public Transform groundCheck;

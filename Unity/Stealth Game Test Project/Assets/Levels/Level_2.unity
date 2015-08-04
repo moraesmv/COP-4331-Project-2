@@ -20048,6 +20048,7 @@ MonoBehaviour:
   levelToLoad: Level_3
   currentLevel: Level_2
   timeInLevel: 0
+  levelNumber: 0
 --- !u!1 &2070256528
 GameObject:
   m_ObjectHideFlags: 0
