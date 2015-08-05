@@ -15,22 +15,22 @@ import java.util.concurrent.TimeUnit;
  */
 public class Score implements Serializable {
 
-    private int id;
+    private String id;
     private int score;
     private String initials;
     private String levelCompleteTime;
     private Date date;
 
-    private static final String TAG_ID = "Id";
+    private static final String TAG_ID = "_id";
     private static final String TAG_SCORE = "Score";
     private static final String TAG_INITIALS = "Initials";
-    private static final String TAG_TIME = "LevelCompleteTime";
+    private static final String TAG_TIME = "LevelTime";
     private static final String TAG_DATE = "Date";
 
     public Score (JSONObject jO) throws JSONException, ParseException
     {
         System.out.println(jO.toString());
-        id = jO.getInt(TAG_ID);
+        id = jO.getString(TAG_ID);
         score = jO.getInt(TAG_SCORE);
         initials = jO.getString(TAG_INITIALS);
         long intTime = (long)jO.getInt(TAG_TIME);
@@ -45,11 +45,11 @@ public class Score implements Serializable {
     }
 
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

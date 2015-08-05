@@ -7,10 +7,14 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -26,9 +30,12 @@ import org.json.JSONObject;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-public class MainActivity extends FragmentActivity implements View.OnClickListener {
+public class MainActivity extends FragmentActivity {
 
     // URI to get score JSON
+    private static String heroku_uri = "http://copstealth.herokuapp.com/api/";
+    private static int level_number = 1;
+    private static int board_number = 0;
     private static String uri;
     private static String uri2;
 
@@ -43,53 +50,72 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        switch1 = (Switch)findViewById(R.id.switch1);
+
         scoreList = new ArrayList<>();
 
-        switch1.setEnabled(false);
-        Button today = (Button) findViewById(R.id.button);
-        today.setOnClickListener(this);
-        Button allTimes = (Button) findViewById(R.id.button2);
-        allTimes.setOnClickListener(this);
+        Spinner level_spinner = (Spinner) findViewById(R.id.level_spinner);
 
+        ArrayAdapter<CharSequence> dropdown_level_names = ArrayAdapter.createFromResource(this,
+                R.array.levels, android.R.layout.simple_spinner_item);
+        dropdown_level_names.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        level_spinner.setAdapter(dropdown_level_names);
+
+        level_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                level_number = position + 1;
+                ToastMe("Level: " + level_number);
+                checkScore();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                level_number = 1;
+//                ToastMe("Level: " + level_number);
+            }
+        });
+
+
+        Spinner leaderboard_spinner = (Spinner) findViewById(R.id.leaderboard_spinner);
+        ArrayAdapter<CharSequence> dropdown_leaderboard_names = ArrayAdapter.createFromResource(this,
+                R.array.leaderboards, android.R.layout.simple_spinner_item);
+
+        dropdown_leaderboard_names.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        leaderboard_spinner.setAdapter(dropdown_leaderboard_names);
+
+        leaderboard_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                board_number = position;
+                ToastMe("Board: " + board_number);
+                checkScore();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                board_number = 0;
+//                ToastMe("Board: " + board_number);
+//                checkScore();
+            }
+        });
+
+        checkScore();
     }
 
-    @Override
-    public void onClick(View v) {
-        switch(v.getId()){
-            case R.id.button:
-                uri = "http://168.235.74.170:8080/";
-                switch1.setEnabled(true);
-                switch1.callOnClick();
-                break;
-            case R.id.button2:
-                uri = "http://168.235.74.170:8080/";
-                switch1.setEnabled(true);
-                switch1.callOnClick();
-                break;
-        }
-
-    }
-
-    public void onSwitchClicked(View view) {
-        switch(view.getId()){
-            case R.id.switch1:
-                if(switch1.isChecked()) {
-                    uri2 = uri + "api/";
-                    checkScore(uri2);
-                }
-                else {
-                    uri2 = uri + "api/";
-                    checkScore(uri2);
-                }
-                break;
-        }
-    }
-
-    public void checkScore (String url)
+    public void ToastMe(String text)
     {
-        readJsonFromUrl(url);
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+    }
 
+    public void checkScore ()
+    {
+        String url = heroku_uri + level_number + '/' + board_number;
+        ToastMe(url);
+        readJsonFromUrl(url);
+    }
+
+    public void updateFragment(){
+        ToastMe("Updating Fragment");
         FragmentManager fm = getSupportFragmentManager();
         scoreChoice = (ScoreChoice) fm.findFragmentByTag(TAG_SCORES);
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
@@ -104,7 +130,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         scoreChoice = ScoreChoice.newInstance(scoreList);
         ft.add(R.id.score_list, scoreChoice, TAG_SCORES);
         ft.commit();
-
+        ToastMe("Updated!");
     }
 
 
@@ -131,7 +157,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                             }
                         }
 
-
+                        updateFragment();
                     }
                 }, new Response.ErrorListener() {
             @Override
