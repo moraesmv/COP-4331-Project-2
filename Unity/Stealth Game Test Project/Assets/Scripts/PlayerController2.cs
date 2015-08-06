@@ -7,10 +7,11 @@ public class PlayerController2 : MonoBehaviour
 	public float moveSpeed = 7f;
 	public float jumpForce = 7f;
 	bool facingRight = true;
-	bool grounded = false;
+	public bool grounded = false;
 	public Transform groundCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
+    public LayerMask Stairs;
 
 	Animator anim;
 
@@ -38,8 +39,11 @@ public class PlayerController2 : MonoBehaviour
 		}
 		
 
-			GetComponent<Rigidbody2D>().velocity = new Vector2(move * moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-
+		GetComponent<Rigidbody2D>().velocity = new Vector2(move * moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        //if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        //{
+        //    if()
+        //}
 		
 		anim.SetFloat ("Speed", Mathf.Abs(move));
 		
